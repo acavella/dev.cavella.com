@@ -1,5 +1,5 @@
 ---
-title: Home | Tony Cavella
+title: Home
 header: Tony Cavella
 description: automation, infrastructure, security
 permalink: /
