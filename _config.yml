@@ -1,0 +1,16 @@
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+
+# SEO Stuff
+author: Tony Cavella
+title: Tony Cavella
+description: "automation, infrastructure, security"
+lang: en
+locale: en_GB
+url: "https://cavella.com"
+baseurl: ""
+
+# RSS feeds
+feed:
+  posts_limit: 20
