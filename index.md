@@ -10,7 +10,11 @@ layout: default
 <h3>Blog Posts</h3>
 
 {% for post in site.posts %}
-<div class="card w-100 shadow">
+<div class="card w-100 shadow hover-overlay">
+<div
+    class="mask"
+    style="background: rgba(251, 251, 251, 0.35)"
+  ></div>
   <img class="card-img-top" src="/assets/images/placeholder.svg" alt="Card image cap">
   <div class="card-body">
     <h5 class="card-title">{{ post.title }}</h5>
