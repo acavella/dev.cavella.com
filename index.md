@@ -10,7 +10,13 @@ layout: default
 <h3>Blog Posts</h3>
 
 {% for post in site.posts %}
-  <p><a href="{{ post.url }}" class="post-title">{{ post.title }}</a><br>
-  📅{{ post.date | date_to_string }}<br>
-  {{ post.description }}</p>
+<div class="card mb-3">
+  <img class="card-img-top" src="..." alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">{{ post.title }}</h5>
+    <p class="card-text">{{ post.description }}</p>
+    <p class="card-text"><small class="text-muted"><a href="{{ post.url}}">Read More...</small></p>
+    <p class="card-text"><small class="text-muted">{{ post.date | date_to_string }}</small></p>
+  </div>
+</div>
 {% endfor %}
