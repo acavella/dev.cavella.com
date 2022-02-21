@@ -19,5 +19,5 @@ layout: default
     <p class="card-text"><small class="text-muted">{{ post.date | date_to_string }}</small></p>
   </div>
 </div>
-</br>
+<br>
 {% endfor %}
