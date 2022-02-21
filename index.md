@@ -10,11 +10,11 @@ layout: default
 <h3>Blog Posts</h3>
 
 {% for post in site.posts %}
-<div class="card w-100 shadow hover-overlay">
 <div
-    class="mask"
-    style="background: rgba(251, 251, 251, 0.35)"
-  >
+  class="bg-image hover-overlay ripple shadow-1-strong rounded"
+  data-mdb-ripple-color="light"
+>
+<div class="card w-100 shadow">
   <img class="card-img-top" src="/assets/images/placeholder.svg" alt="Card image cap">
   <div class="card-body">
     <h5 class="card-title">{{ post.title }}</h5>
@@ -24,7 +24,10 @@ layout: default
   <div class="card-footer bg-light">
     <small class="text-muted">{{ post.date | date_to_string }}</small>
   </div>
-  </div>
 </div>
+<a href="#!">
+    <div class="mask" style="background-color: rgba(251, 251, 251, 0.2)"></div>
+  </a>
+  </div>
 <br>
 {% endfor %}
