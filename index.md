@@ -14,7 +14,7 @@ layout: default
 <div
     class="mask"
     style="background: rgba(251, 251, 251, 0.35)"
-  ></div>
+  >
   <img class="card-img-top" src="/assets/images/placeholder.svg" alt="Card image cap">
   <div class="card-body">
     <h5 class="card-title">{{ post.title }}</h5>
@@ -23,6 +23,7 @@ layout: default
   </div>
   <div class="card-footer bg-light">
     <small class="text-muted">{{ post.date | date_to_string }}</small>
+  </div>
   </div>
 </div>
 <br>
