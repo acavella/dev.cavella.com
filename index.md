@@ -17,7 +17,9 @@ layout: default
     <p class="card-text">{{ post.description }}</p>
     <a href="#" class="card-link">Read more...</a>
   </div>
-  <div class="card-footer bg-light border-success"><small class="text-muted">{{ post.date | date_to_string }}</small></div>
+  <div class="card-footer bg-light">
+    <small class="text-muted">{{ post.date | date_to_string }}</small>
+  </div>
 </div>
 <br>
 {% endfor %}
