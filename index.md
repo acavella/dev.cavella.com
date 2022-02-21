@@ -10,7 +10,7 @@ layout: default
 <h3>Blog Posts</h3>
 
 {% for post in site.posts %}
-<div class="card col-md-8 shadow">
+<div class="card w-100 shadow">
   <img class="card-img-top" src="/assets/images/placeholder.svg" alt="Card image cap">
   <div class="card-body">
     <h5 class="card-title">{{ post.title }}</h5>
