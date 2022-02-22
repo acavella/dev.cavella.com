@@ -7,7 +7,7 @@ layout: default
 ---
 {% for post in site.posts %}
 <div class="card w-100 shadow">
-  <img class="card-img-top" src="/assets/images/placeholder.svg" alt="Card image cap">
+  <img class="card-img-top" src="/assets/images/gradiant_placeholder.svg" alt="Card image cap">
   <div class="card-body">
     <h5 class="card-title">{{ post.title }}</h5>
     <p class="card-text">{{ post.excerpt }}</p>
