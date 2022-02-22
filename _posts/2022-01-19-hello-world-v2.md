@@ -3,6 +3,7 @@ layout: post
 title: "Hello World v2"
 description: "I'm happy to announce the site has been rebuilt using Simple.css ver. 2.0"
 date: 2022-01-19
+thumbnail: "/assets/images/gradiant_placeholder.svg"
 ---
 
 I'm happy to announce the site has been rebuilt using Simple.css version 2.0, which was just released by Kev Quirk two days ago. If you are looking to create a dead simple website, go check out his work at [Simple.css](https://simplecss.org). 

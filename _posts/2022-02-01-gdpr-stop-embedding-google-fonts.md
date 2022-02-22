@@ -3,6 +3,7 @@ layout: post
 title: "Court Rules Against Embedded Fonts"
 description: "A recent ruling from a German Court in Munich, required a website owner to pay &#128;100 for using embedded fonts."
 date: 2022-02-1
+thumbnail: "/assets/images/font_header.svg"
 ---
 
 In a recent ruling from a German Court in Munich, a website owner was ordered to pay &#128;100 fine for the use of embedded fonts. The court ruled that the use of Google's embedded font service was in violation of the General Data Protection Regulation (GDPR). The court ruled that the plaintiff's IP address was transferred without consent via the Google Fonts library. The ruling read as follows:

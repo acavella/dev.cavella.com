@@ -3,6 +3,7 @@ layout: post
 title: Ansible Role Wireguard
 description: Yesterday I completed and published my first official Ansible Role.
 date: 2021-12-10
+thumbnail: "/assets/images/gradiant_placeholder.svg"
 ---
 
 Yesterday I completed and published my first official Ansible Role. Much of the motivation for this project came from the great work [Jeff Geerling](https://github.com/geerlingguy) is doing around Ansible. If you are interested in getting started with Ansible, I highly suggest checking out his Ansible 101 series.  
