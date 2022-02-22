@@ -10,6 +10,7 @@ lang: en
 locale: en_GB
 url: "https://cavella.com"
 baseurl: ""
+excerpt_separator: <!--more-->
 
 # RSS feeds
 feed:
