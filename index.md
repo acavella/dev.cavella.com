@@ -11,7 +11,7 @@ layout: default
   <div class="card-body">
     <h5 class="card-title">{{ post.title }}</h5>
     <p class="card-text">{{ post.excerpt }}</p>
-    <a href="{{ post.url }}" class="card-link">READ MORE</a>
+    <small class="text-muted"><a href="{{ post.url }}" class="card-link">READ MORE</a></small>
   </div>
   <div class="card-footer bg-light">
     <small class="text-muted">{{ post.date | date_to_string }}</small>
