@@ -14,7 +14,7 @@ layout: default
     <small><a href="{{ post.url }}" class="card-link text-secondary">READ MORE</a></small>
   </div>
   <div class="card-footer bg-light">
-    <small class="text-muted text-left">{{ post.date | date_to_string }}</small>
+    <small class="text-muted text-start">{{ post.date | date_to_string }}</small>
     <small class="text-muted text-end">tags</small>
   </div>
 </div>
