@@ -13,9 +13,9 @@ layout: default
     <p class="card-text">{{ post.excerpt }}</p>
     <small><a href="{{ post.url }}" class="card-link text-secondary">READ MORE</a></small>
   </div>
-  <div class="card-footer bg-light">
-    <small class="text-muted d-flex justify-content-start">{{ post.date | date_to_string }}</small>
-    <small class="text-muted d-flex justify-content-end">tags</small>
+  <div class="card-footer bg-light d-flex">
+    <small class="text-muted justify-content-start">{{ post.date | date_to_string }}</small>
+    <small class="text-muted justify-content-end">tags</small>
   </div>
 </div>
 <br>
