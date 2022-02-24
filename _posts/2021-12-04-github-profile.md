@@ -3,6 +3,7 @@ layout: post
 title: Custom Github Profile
 description: A little over a year ago Github introduced profile customization through a custome README.
 date: 2021-12-04
+category: Development
 thumbnail: "/assets/images/gradiant_placeholder.svg"
 ---
 

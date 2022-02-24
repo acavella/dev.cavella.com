@@ -3,6 +3,7 @@ layout: post
 title: Automating WD MyCloud Backups to Backblaze B2
 description: I decided I needed to take a more serious approach to data storage and ultimately data backup.
 date: 2022-01-6
+category: Backup
 thumbnail: "/assets/images/gradiant_placeholder.svg"
 ---
 

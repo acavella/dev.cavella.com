@@ -3,6 +3,7 @@ layout: post
 title: New Year, New Desktop
 description: Following a trend from Mike Stone on FOSStodon, I'm posting my latest desktop.
 date: 2022-01-11
+category: Linux
 thumbnail: "/assets/images/fedora_thumbnail.jpg"
 ---
 
