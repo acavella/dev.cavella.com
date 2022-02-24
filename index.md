@@ -15,7 +15,7 @@ layout: default
   </div>
   <div class="card-footer bg-light d-flex bd-highlight">
     <div class="me-auto bd-highlight"><small class="text-muted">{{ post.date | date_to_string }}</small></div>
-    <div class="bd-highlight"><small class="text-muted">{{ post.category }}</small></div>
+    <div class="bd-highlight"><small class="text-muted"><span class="badge bg-secondary">{{ post.category }}</span></small></div>
   </div>
 </div>
 <br>
