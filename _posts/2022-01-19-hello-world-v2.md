@@ -3,6 +3,7 @@ layout: post
 title: "Hello World v2"
 description: "I'm happy to announce the site has been rebuilt using Simple.css ver. 2.0"
 date: 2022-01-19
+category: Site Development
 thumbnail: "/assets/images/gradiant_placeholder.svg"
 ---
 

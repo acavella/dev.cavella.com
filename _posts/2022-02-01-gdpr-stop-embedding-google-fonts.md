@@ -3,7 +3,7 @@ layout: post
 title: "Court Rules Against Embedded Fonts"
 description: "A recent ruling from a German Court in Munich, required a website owner to pay &#128;100 for using embedded fonts."
 date: 2022-02-1
-category: policy
+category: News
 thumbnail: "/assets/images/font_header.svg"
 ---
 
