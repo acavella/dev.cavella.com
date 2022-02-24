@@ -13,7 +13,7 @@ layout: default
     <p class="card-text">{{ post.excerpt }}</p>
     <small><a href="{{ post.url }}" class="card-link text-secondary">READ MORE</a></small>
   </div>
-  <div class="card-footer bg-light d-flex bd-highlight mb-3">
+  <div class="card-footer bg-light d-flex bd-highlight">
     <div class="me-auto bd-highlight"><small class="text-muted">{{ post.date | date_to_string }}</small></div>
     <div class="bd-highlight"><small class="text-muted">tags</small></div>
   </div>
