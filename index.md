@@ -2,7 +2,7 @@
 title: Home
 header: Tony Cavella
 description: automation, infrastructure, security
-#permalink: /
+permalink: /
 layout: default
 ---
 {% for post in site.posts %}

@@ -12,7 +12,6 @@ url: "https://cavella.com"
 baseurl: ""
 permalink: /:slugified_categories/:year/:month/:day/:title:output_ext
 excerpt_separator: <!--more-->
-paginate: 5
 
 # RSS feeds
 feed:
